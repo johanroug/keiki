@@ -37,15 +37,16 @@
                 // REMOVES GRIDDER EXPAND AREA
                 visible = false;
                 base.find(".selectedItem").removeClass("selectedItem");
-                
-                base.find(".gridder-show").slideUp(settings.animationSpeed, settings.animationEasing, function() {
-                    base.find(".gridder-show").remove();
+                console.log("hej2")
+                $(".gridder-show").slideUp(settings.animationSpeed, settings.animationEasing, function() {
+                    console.log("hej")
+                    $(".gridder-show").remove();
                     settings.onClosed(base);
                 });
             }
             
             // OPEN EXPANDER
-            function openExpander(myself) {
+            function openExpander(myself, insertAbove) {
                 
                 /* ENSURES THE CORRECT BLOC IS ACTIVE */
                 if (!myself.hasClass("selectedItem")) {
@@ -58,7 +59,7 @@
                 }
 
                 /* REMOVES PREVIOUS BLOC */
-                _this.find(".gridder-show").remove();
+                $(".gridder-show").remove();
 
 
                 /* ADD CLASS TO THE GRIDDER CONTAINER
@@ -70,7 +71,7 @@
 
                 /* ADD LOADING BLOC */
                 var $htmlcontent = $("<div class=\"gridder-show loading\"></div>");
-                mybloc = $htmlcontent.insertBefore(myself);
+                mybloc = $htmlcontent.insertBefore($('.gridder-list')[insertAbove]);
                 
                 /* GET CONTENT VIA AJAX OR #ID*/
                 var thecontent = "";
@@ -78,7 +79,7 @@
                 if( myself.data("griddercontent").indexOf("#") === 0 ) {
                     
                     // Load #ID Content
-                    thecontent = $(myself.data("griddercontent")).html();
+                    thecontent = $(myself.data("griddercontent")).html();                    
                     processContent(myself, thecontent);
                 }else{
                     
@@ -160,9 +161,31 @@
             /* CLICK EVENT */
             _this.find(".gridder-list").on("click", function (e) {
                 e.preventDefault();
-                var myself = $(this);
-                console.log(myself)
-                openExpander(myself);
+                var myself = $(this),
+                    numBefore = myself.prevAll('li').length;
+
+              
+
+                var totalInRow = 6;
+   
+                $( window ).resize(function() {
+                    if ( $( document ).width() > 600 ) {
+                        console.log("inde")
+                        totalInRow = 6
+                    } else {
+                        console.log("inde2")
+                        totalInRow = 4
+                    }
+                });
+                console.log(totalInRow)
+                
+                var insertAbove = numBefore - (numBefore % totalInRow);
+
+
+                
+
+                    
+                openExpander(myself, insertAbove );
             });
             
             /* NEXT BUTTON */
