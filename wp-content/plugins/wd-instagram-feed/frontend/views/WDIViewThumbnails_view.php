@@ -99,8 +99,8 @@ public function generate_feed_styles($feed_row){
 		min-width: 160px;
 	    width: 100%; 
 	    margin: 0 auto;
-	    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
-		border-bottom: 5px solid <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/;
+	    background-color: #fcfcfc;/*feed_container_bg_color*/
+		border-bottom: #fcfcfc;/*feed_container_bg_color*/;
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_wrapper{
 		width: <?php echo $style['feed_wrapper_width']?>; /*feed_wrapper_width,column number * image size*/
@@ -191,7 +191,7 @@ public function generate_feed_styles($feed_row){
 		width: <?php echo $style['user_img_width']?>px;
 		border-radius: <?php echo $style['user_border_radius']?>px;
 		overflow: hidden;
-		display: block;
+		display: none;
 	}
 	
 	
@@ -309,7 +309,7 @@ public function generate_feed_styles($feed_row){
 		bottom: 0;
 		left: 0;
 		right: 0;
-		border: 2px solid #fff;
+		border: 2px solid #fcfcfc;
 	    background-color: <?php echo $style['th_photo_wrap_bg_color']?>;/*photo_wrap_bg_color*/
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_photo_img{
@@ -517,7 +517,7 @@ public function generate_feed_styles($feed_row){
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
 		    width: 100%; 
 		    margin: 0 auto;
-		    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
+		    background-color: #fcfcfc;/*feed_container_bg_color*/
 		}
 		
 	}
@@ -535,7 +535,7 @@ public function generate_feed_styles($feed_row){
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
 		    width: 100%; 
 		    margin: 0 auto;
-		    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
+		    background-color: #fcfcfc;/*feed_container_bg_color*/
 		}
 	}
 	@media screen and (max-width: 480px){
@@ -552,7 +552,7 @@ public function generate_feed_styles($feed_row){
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
 		    width: 100%; 
 		    margin: 0 auto;
-		    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
+		    background-color: #fcfcfc;/*feed_container_bg_color*/
 		}
 	}
 	<?php } ?>
