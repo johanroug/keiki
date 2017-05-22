@@ -58,8 +58,7 @@ body {
 }
 
 body.custom-background {
-    background-color: #fcfcfc !important;
-}
+   }
 
 article,
 aside,
@@ -1184,6 +1183,7 @@ a:active {
     font-size: 1em;
     margin: 0 0 20px;
     line-height: 21px;
+    display: none;
 }
 
 .widget ul > li {
@@ -1708,7 +1708,7 @@ p.dropcap:first-letter {
     border: 0px;
     padding: 0px 0 0px 0;
     margin-bottom: 60px;
-    background: #fff;
+    background: transparent;
     float: left;
     width: 100%;
 }
@@ -1924,7 +1924,7 @@ p.dropcap:first-letter {
 ## Comments
 --------------------------------------------------------------*/
 .comments-area-wrap {
-    background: #fcfcfc;
+    background: transparent;
     float: left;
     width: 100%;
     margin-bottom: 60px;
@@ -2239,14 +2239,12 @@ object {
     width: 100%;
     padding: 70px 0;
     text-align: center;
-    background: #FFF;
     background-size: cover;
     background-position: center;
 }
 
 .header-inner-site-branding.header-logo-wrap-single {
     padding: 60px 0;
-    background-color: #fcfcfc;
 }
 
 .header-inner-site-branding.header-logo-wrap-single .header-logo-wrap img {
@@ -2934,8 +2932,8 @@ div.sharedaddy h3.sd-title:before {
     }
 
     .header-inner-site-branding.header-logo-wrap-single {
-        padding: 60px 0 125px 0;
-	background-color; #fcfcfc;
+        padding: 70px 0 70px 0;
+	background-color; #ffffff;
     }
 
     .header-inner-site-branding.header-logo-wrap-single .header-logo-wrap img {
@@ -3377,7 +3375,7 @@ body {
     .comments-area-wrap .comments-area {
         max-width: 1100px;
         margin: 0 auto;
-	background-color: #fcfcfc;
+	background-color: transparent;
     }
 
     .content-area-with-sidebar {
@@ -3608,7 +3606,7 @@ body {
     .content-inner-wrap,
     .comments-area-wrap .comments-area {
         max-width: 1200px;
-	background-color: #fcfcfc;
+	background-color: transparent;
     }
 
 }
@@ -3645,8 +3643,9 @@ body {
 
 .content-inner-wrap,
     .comments-area-wrap .comments-area {
-	background-color: #fcfcfc;
-    }
+    background-color: transparent;
+}
+
 
 
 .leena-gallery {
