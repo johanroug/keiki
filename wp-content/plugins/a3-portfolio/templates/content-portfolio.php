@@ -56,6 +56,7 @@ $portfolio_gallery = a3_portfolio_get_gallery( $portfolio_id );
 
 	<div class="a3-portfolio-item-expander-content" style="position: absolute;visibility: hidden;">
 
+		<!--
 		<div class="a3-portfolio-item-image-container" data-portfolioId="<?php echo $portfolio_id; ?>">
 
 			<?php do_action( 'a3_portfolio_before_item_expander_large_image_container', $portfolio_id ); ?>
@@ -72,6 +73,7 @@ $portfolio_gallery = a3_portfolio_get_gallery( $portfolio_id );
 			?>
 
 		</div>
+		-->
 
 		<div class="a3-portfolio-item-content-container">
 

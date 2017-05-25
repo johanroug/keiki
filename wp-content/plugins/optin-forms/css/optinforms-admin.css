@@ -99,7 +99,34 @@
 #optinforms-form3-button {margin: 0; color: #fff; background: #49A3FE; padding: 6px; border: 0; border-radius: 4px; font-size: 18px; font-weight: 700; cursor: pointer; width:100%;}
 
 #optinforms-form4-container {width: 98%; margin: 10px 0; max-width: 750px;}
-#optinforms-form4 {display: block; float: left; width: 94%; background: #FCFCFC; padding: 15px 3%; text-align: center; margin: 0 0 25px; border: 2px solid #ECEAED;}
+#optinforms-form4 /*{display: block; float: left; width: 94%; background: #FCFCFC; padding: 15px 3%; text-align: center; margin: 0 0 25px; border: 2px solid #ECEAED;}*/
+{
+	display: block !important;
+	width:6em !important;
+	height:6em !important;
+	background:#fe0 !important;
+	-webkit-transform:rotate(-45deg) !important;
+	-moz-transform:rotate(-45deg) !important;
+	rotation:-45deg !important;
+	position:relative !important;
+	top:2em !important;
+	left:2em !important;
+	text-align:center !important;
+	text-decoration:none !important;
+	color:#000 !important;
+	font-weight:bold !important;
+	font-family:Arial, sans-serif !important;
+}
+#optinforms-form4 span
+{
+	display:block !important;
+	width:6em !important;
+	height:6em !important;
+	background:#fe0 !important;
+	-webkit-transform:rotate(22.5deg) !important;
+	-moz-transform:rotate(22.5deg) !important;
+	rotation:22.5deg !important;
+}
 #optinforms-form4-title {color: #505050; font-family: Arial, sans-serif; font-size: 24px; line-height: 24px; margin: 10px 0;}
 #optinforms-form4-subtitle {font-size: 16px; color: #505050; margin: 15px 0; line-height: 28px;}
 #optinforms-form4-email-field {color: #666; padding: 8px; margin: 0 0 5px 0;  background: #fff; width:100%; text-align: center; font-size: 16px; border:1px solid #DFDFDF; border-radius: 4px; -webkit-transition: all .2s ease-out; -moz-transition: all .2s ease-out; -ms-transition: all .2s ease-out;transition: all .2s ease-out; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box; /* Firefox, other Gecko */ box-sizing: border-box;}
