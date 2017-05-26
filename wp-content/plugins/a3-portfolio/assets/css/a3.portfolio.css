@@ -640,7 +640,7 @@
         }
 
 @media only screen and (min-width: 768px){
-    .a3-portfolio-expander-popup .inner,.a3-portfolio-expander-popup .a3-portfolio-inner-container{max-width:1110px}.a3-portfolio-expander-popup .a3-portfolio-item-image-container,div.single-a3-portfolio .a3-portfolio-item-image-container{width:70%;float:left;margin-right:2%;margin-bottom:0px}.a3-portfolio-expander-popup .a3-portfolio-item-content-container,div.single-a3-portfolio .a3-portfolio-item-content-container{width:28%;float:left}}@media only screen and (min-width: 768px) and (max-width: 1024px){.a3-portfolio-gallery-thumbs-container .pg_grid .pg_grid_content{height:45px !important;width:45px !important}}@media only screen and (max-width: 1000px){.a3-portfolio-expander-popup .inner,.a3-portfolio-expander-popup .a3-portfolio-inner-container{max-width:100% !important}}@media only screen and (min-width: 737px){.a3-portfolio-menus-container{display:block !important}}@media only screen and (max-width: 736px){.a3-portfolio-navigation-mobile{display:block}.a3-portfolio-menus-container{display:none}.a3-portfolio-expander-popup{height:auto !important;padding:0 !important}.a3-portfolio-expander-popup .a3-portfolio-item-content-container{padding-left:20px;padding-right:20px}.a3-portfolio-expander-popup .a3-portfolio-inner-container{width:100% !important;box-sizing:border-box}.a3-portfolio-item-image-container img{border-bottom:5px solid #191818}body .a3-portfolio-expander-popup > div.closebutton{display:none}.a3-portfolio-single-wrap,.a3-portfolio-inner-wrap{margin-top:0 !important;padding-top:0 !important}.a3-portfolio-controller{display:block;width:100%;float:left;clear:both;margin-bottom:0px;padding:5px;background-color:#191818}.a3-portfolio-controller .closebutton{display:inline-block;float:right;position:relative;top:0;right:0;margin:0 !important;z-index:100000}.a3-portfolio-controller .closebutton .a3-portfolio-icon-close{background:none repeat scroll 0 0 #333 !important;font-size:26px;font-weight:normal !important;filter:alpha(opacity=@opacity * 100);-moz-opacity:0.9;-khtml-opacity:0.9;opacity:0.9;-moz-user-select:none;border:1px solid #141414 !important;-webkit-border-radius:2px;border-radius:2px;cursor:pointer !important;outline:0 none;text-decoration:none !important;text-shadow:0 -1px 0 rgba(0,0,0,0.5);white-space:normal;word-wrap:normal;color:#ffffff !important;height:40px;padding:5px 8px;box-shadow:0 1px 0 rgba(255,255,255,0.06), 1px 1px 0 rgba(255,255,255,0.03), -1px -1px 0 rgba(0,0,0,0.02), 1px 1px 0 rgba(255,255,255,0.05) inset !important;-moz-box-shadow:0 1px 0 rgba(255,255,255,0.06), 1px 1px 0 rgba(255,255,255,0.03), -1px -1px 0 rgba(0,0,0,0.02), 1px 1px 0 rgba(255,255,255,0.05) inset !important;-webkitbox-shadow:0 1px 0 rgba(255,255,255,0.06), 1px 1px 0 rgba(255,255,255,0.03), -1px -1px 0 rgba(0,0,0,0.02), 1px 1px 0 rgba(255,255,255,0.05) inset !important}}
+    .a3-portfolio-expander-popup .inner,.a3-portfolio-expander-popup .a3-portfolio-inner-container{max-width:1110px}.a3-portfolio-expander-popup .a3-portfolio-item-image-container,div.single-a3-portfolio .a3-portfolio-item-image-container{width:70%;float:left;margin-right:2%;margin-bottom:0px}.a3-portfolio-expander-popup .a3-portfolio-item-content-container,div.single-a3-portfolio .a3-portfolio-item-content-container{width:100%;float:left}}@media only screen and (min-width: 768px) and (max-width: 1024px){.a3-portfolio-gallery-thumbs-container .pg_grid .pg_grid_content{height:45px !important;width:45px !important}}@media only screen and (max-width: 1000px){.a3-portfolio-expander-popup .inner,.a3-portfolio-expander-popup .a3-portfolio-inner-container{max-width:100% !important}}@media only screen and (min-width: 737px){.a3-portfolio-menus-container{display:block !important}}@media only screen and (max-width: 736px){.a3-portfolio-navigation-mobile{display:block}.a3-portfolio-menus-container{display:none}.a3-portfolio-expander-popup{height:auto !important;padding:0 !important}.a3-portfolio-expander-popup .a3-portfolio-item-content-container{padding-left:20px;padding-right:20px}.a3-portfolio-expander-popup .a3-portfolio-inner-container{width:100% !important;box-sizing:border-box}.a3-portfolio-item-image-container img{border-bottom:5px solid #191818}body .a3-portfolio-expander-popup > div.closebutton{display:none}.a3-portfolio-single-wrap,.a3-portfolio-inner-wrap{margin-top:0 !important;padding-top:0 !important}.a3-portfolio-controller{display:block;width:100%;float:left;clear:both;margin-bottom:0px;padding:5px;background-color:#191818}.a3-portfolio-controller .closebutton{display:inline-block;float:right;position:relative;top:0;right:0;margin:0 !important;z-index:100000}.a3-portfolio-controller .closebutton .a3-portfolio-icon-close{background:none repeat scroll 0 0 #333 !important;font-size:26px;font-weight:normal !important;filter:alpha(opacity=@opacity * 100);-moz-opacity:0.9;-khtml-opacity:0.9;opacity:0.9;-moz-user-select:none;border:1px solid #141414 !important;-webkit-border-radius:2px;border-radius:2px;cursor:pointer !important;outline:0 none;text-decoration:none !important;text-shadow:0 -1px 0 rgba(0,0,0,0.5);white-space:normal;word-wrap:normal;color:#ffffff !important;height:40px;padding:5px 8px;box-shadow:0 1px 0 rgba(255,255,255,0.06), 1px 1px 0 rgba(255,255,255,0.03), -1px -1px 0 rgba(0,0,0,0.02), 1px 1px 0 rgba(255,255,255,0.05) inset !important;-moz-box-shadow:0 1px 0 rgba(255,255,255,0.06), 1px 1px 0 rgba(255,255,255,0.03), -1px -1px 0 rgba(0,0,0,0.02), 1px 1px 0 rgba(255,255,255,0.05) inset !important;-webkitbox-shadow:0 1px 0 rgba(255,255,255,0.06), 1px 1px 0 rgba(255,255,255,0.03), -1px -1px 0 rgba(0,0,0,0.02), 1px 1px 0 rgba(255,255,255,0.05) inset !important}}
 
 
 
@@ -652,18 +652,18 @@
     width: 1110px;
 }
 
-@media screen and (min-width: 1600px) !important
-
-.a3-portfolio-expander-popup {
-    width: 1110px !important;
+@media screen and (min-width: 1600px) {
+    .a3-portfolio-expander-popup {
+        width: 1110px !important;
+    }
 }
 
-@media screen and (min-width: 1200px) !important 
+@media screen and (min-width: 1200px) {
+    .a3-portfolio-expander-popup {
+        width: 1010px !important;
+    }
 
-.a3-portfolio-expander-popup {
-    width: 1010px !important;
-}
-
-.a3-portfolio-item-content-container {
-    width: 100% !important;
+    .a3-portfolio-item-content-container {
+        width: 100% !important;
+    }
 }

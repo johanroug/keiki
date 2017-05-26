@@ -172,3 +172,55 @@
     line-height:1.5;
     font-size:12px;
 }
+
+.keiki-sticker {
+    z-index: 200;
+    position: relative;
+    margin-top: -85px;
+    margin-bottom: -140px;
+    padding-left: 80px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+.keiki-sticker {
+    margin-top: -72px;
+    margin-bottom: -128px;
+    padding-left: 50px;
+}
+.keiki-sticker .so-widget-image{
+    height: 200px !important;
+}
+}
+
+@media screen and (min-width: 850px) and (max-width: 991px){
+.keiki-sticker {
+    margin-top: -60px;
+    margin-bottom: -110px;
+    padding-left: 45px;
+}
+.keiki-sticker .so-widget-image{
+    height: 170px !important;
+}
+}
+
+@media screen and (min-width: 492px) and (max-width: 849px){
+.keiki-sticker {
+    margin-top: -50px;
+    margin-bottom: -90px;
+    padding-left: 6%;
+}
+.keiki-sticker .so-widget-image{
+    height: 140px !important;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 491px){
+.keiki-sticker {
+    margin-top: -10%;
+    margin-bottom: -20%;
+    padding-left: 6%;
+}
+.keiki-sticker .so-widget-image{
+    width: 33% !important;
+}
+}
