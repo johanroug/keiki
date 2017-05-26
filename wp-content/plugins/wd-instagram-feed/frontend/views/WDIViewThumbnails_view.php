@@ -97,14 +97,14 @@ public function generate_feed_styles($feed_row){
 	<style type="text/css">
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
 		min-width: 160px;
-	    width: 100%; 
+	    width: <?php echo $style['feed_container_width']?>; 
 	    margin: 0 auto;
-	    background-color: #fcfcfc;/*feed_container_bg_color*/
-		border-bottom: #fcfcfc;/*feed_container_bg_color*/;
+	    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
+		border-bottom: 5px solid <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/;
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_wrapper{
 		width: <?php echo $style['feed_wrapper_width']?>; /*feed_wrapper_width,column number * image size*/
-		margin: 3px auto;
+		margin: 0 auto;
 		background-color: <?php echo $style['feed_wrapper_bg_color']?>;/*feed_wrapper_bg_color*/
 		text-align: <?php echo $style['header_position']?>;/*header_position*/
 	}
@@ -139,7 +139,10 @@ public function generate_feed_styles($feed_row){
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_single_user{
 		display: inline-block;
 		float: left;
-		padding-left: 2px; 
+		padding-top: <?php echo $style['user_padding']?>;/*user_padding*/
+		padding-bottom: <?php echo $style['user_padding']?>;/*user_padding*/
+		padding-left: <?php echo $style['user_padding']?>;/*user_padding*/
+		padding-right: <?php echo $style['user_padding']?>;/*user_padding*/
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_user_img_wrap {
 	    display: inline-block;
@@ -179,7 +182,7 @@ public function generate_feed_styles($feed_row){
 		font-size: <?php echo $style['users_text_font_size']?>;
 		font-style: <?php echo $style['users_text_font_style']?>;
 		line-height: <?php echo $style['users_text_font_size']?>;
-		color: #000;
+		color: <?php echo $style['users_text_color']?>;/*header_text_color*/;
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_header_user_text h3:hover
 	{
@@ -191,7 +194,7 @@ public function generate_feed_styles($feed_row){
 		width: <?php echo $style['user_img_width']?>px;
 		border-radius: <?php echo $style['user_border_radius']?>px;
 		overflow: hidden;
-		display: none;
+		display: block;
 	}
 	
 	
@@ -204,7 +207,7 @@ public function generate_feed_styles($feed_row){
 		margin-left: <?php echo intval($style['user_img_width']) + 10;?>px;
 		line-height: <?php echo $style['users_text_font_size']?>;
 		color: <?php echo $style['users_text_color']?>;/*header_text_color !mmm/ seperate*/
-		display: none;
+		display: <?php echo ($feed_row['display_user_post_follow_number'] == '1') ? 'block' : 'none'; ?>
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_media_info p{
 		margin-top: 0px;
@@ -294,7 +297,7 @@ public function generate_feed_styles($feed_row){
 	    padding: <?php echo $style['th_photo_wrap_padding']?>; /*photo_wrap_padding*/
 	    position: relative;
 	    width: calc(100% - 2*<?php echo $style['th_photo_wrap_padding']?>);
-	    display: block;
+	    display: inline-block;
 		  box-sizing:content-box;
 	    overflow: hidden;
 	}
@@ -309,7 +312,7 @@ public function generate_feed_styles($feed_row){
 		bottom: 0;
 		left: 0;
 		right: 0;
-		border: 2px solid #fcfcfc;
+		border: <?php echo $style['th_photo_wrap_border_size']?> solid <?php echo $style['th_photo_wrap_border_color']?>;/*photo_wrap_border_size,photo_wrap_border_color*/
 	    background-color: <?php echo $style['th_photo_wrap_bg_color']?>;/*photo_wrap_bg_color*/
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_photo_img{
@@ -335,7 +338,7 @@ public function generate_feed_styles($feed_row){
 		height:auto;
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_shape_landscape .wdi_img{
-		height: 100%;
+		height: 100% !important; /*overwrite some themes styles*/
 		width:auto;
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item{
@@ -422,7 +425,7 @@ public function generate_feed_styles($feed_row){
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_load_more,
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_spinner
 	{
-	    padding: 0;
+	    padding: 10px;
 		background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
 		text-align: <?php echo $style['load_more_position']?>;/*load_more_position*/
 		transition: all 0.2s ease;
@@ -489,7 +492,7 @@ public function generate_feed_styles($feed_row){
 		opacity: 1;
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_load_more_container{
-		display: none;
+		display: inline-block;
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_filter_active_bg{
 		background-color: <?php echo $style['active_filter_bg_color'];?>;
@@ -505,54 +508,45 @@ public function generate_feed_styles($feed_row){
 		?>
 	@media screen and (min-width: 800px) and (max-width:1024px){
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item{
-			width: <?php echo ($colNum<33.33) ? '25%' : $colNum.'%'?>;/*thumbnail_size*/
+			width: <?php echo ($colNum<33.33) ? '33.333333333333%' : $colNum.'%'?>;/*thumbnail_size*/
 			margin: 0;
 			display: inline-block;
 			vertical-align: top;
 			overflow: hidden;
 		}
-		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item:nth-child(1n+9){
-			display: none;
-		}
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
 		    width: 100%; 
 		    margin: 0 auto;
-		    background-color: #fcfcfc;/*feed_container_bg_color*/
+		    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
 		}
 		
 	}
 	@media screen and (min-width: 480px) and (max-width:800px){
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item{
-			width: <?php echo ($colNum<50) ? '25%' : $colNum.'%'?>;/*thumbnail_size*/
+			width: <?php echo ($colNum<50) ? '50%' : $colNum.'%'?>;/*thumbnail_size*/
 			margin: 0;
 			display: inline-block;
 			vertical-align: top;
 			overflow: hidden;
 		}
-		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item:nth-child(1n+9){
-			display: none;
-		}
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
 		    width: 100%; 
 		    margin: 0 auto;
-		    background-color: #fcfcfc;/*feed_container_bg_color*/
+		    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
 		}
 	}
 	@media screen and (max-width: 480px){
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item{
-			width: <?php echo ($colNum<100) ? '33.333333333333%' : $colNum.'%'?>;/*thumbnail_size*/
+			width: <?php echo ($colNum<100) ? '100%' : $colNum.'%'?>;/*thumbnail_size*/
 			margin: 0;
 			display: inline-block;
 			vertical-align: top;
 			overflow: hidden;
 		}
-		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item:nth-child(1n+10){
-			display: none;
-		}
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
 		    width: 100%; 
 		    margin: 0 auto;
-		    background-color: #fcfcfc;/*feed_container_bg_color*/
+		    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
 		}
 	}
 	<?php } ?>

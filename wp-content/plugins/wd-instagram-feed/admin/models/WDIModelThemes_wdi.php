@@ -59,10 +59,10 @@ class WDIModelThemes_wdi {
   $settings = array(
     'theme_name' => 'Instagram Design',
     'default_theme'=> '0',
-    'feed_container_bg_color' => '#fcfcfc',
+    'feed_container_bg_color' => '#FFFFFF',
     'feed_wrapper_width' => '100%',
     'feed_container_width' => '100%',
-    'feed_wrapper_bg_color' => '#fcfcfc',
+    'feed_wrapper_bg_color' => '#FFFFFF',
     'active_filter_bg_color' => '#429fff',
     'header_margin' => '0px',
     'header_padding' => '5px',

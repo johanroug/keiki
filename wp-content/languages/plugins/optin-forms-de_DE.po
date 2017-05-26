@@ -1,0 +1,791 @@
+# Translation of Plugins - Optin Forms - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Optin Forms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-01 10:39:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Optin Forms - Stable (latest release)\n"
+
+#: includes/options-email-solution.php:487
+msgid "Enter the error message your visitors will once when the form submission has been unsuccessful."
+msgstr "Geben Sie die Fehlermeldung ein, die Ihre Besucher sehen werden, wenn sie Ihre Mailing Liste abonnieren"
+
+#: includes/options-email-solution.php:468
+msgid "Error message"
+msgstr "Fehlermeldung"
+
+#: includes/options-email-solution.php:462
+msgid "Enter the success message your visitors will see once they subscribe to your mailing list."
+msgstr "Geben Sie die Erfolgsmeldung ein, die Ihre Besucher sehen werden, wenn sie Ihre Mailing Liste abonnieren."
+
+#: includes/options-email-solution.php:443
+msgid "Success message"
+msgstr "Erfolgsmeldung"
+
+#: includes/options-email-solution.php:436
+msgid "You will see your form ID in the ID attribute"
+msgstr "Sie sehen Ihre Formular ID im ID Attribut"
+
+#: includes/options-email-solution.php:434
+msgid "Click on Embed"
+msgstr "Klicken Sie auf \"Einbetten\""
+
+#: includes/options-email-solution.php:432
+msgid "Click on Settings"
+msgstr "Klicken Sie auf \"Einstellungen\""
+
+#: includes/options-email-solution.php:430
+msgid "Click on the name of your form"
+msgstr "Klicken Sie auf den Namen Ihres Formulars"
+
+#: includes/options-email-solution.php:428
+msgid "Log in to your ConvertKit account"
+msgstr "Mit dem ConvertKit Konto anmelden"
+
+#: includes/options-email-solution.php:427
+msgid "How to find your form ID"
+msgstr "Wie Sie Ihre Formular ID finden"
+
+#: includes/options-email-solution.php:408
+msgid "Form ID"
+msgstr "Formular ID"
+
+#. Author URI of the plugin/theme
+msgid "http://www.fancythemes.com"
+msgstr "http://www.fancythemes.com"
+
+#. Author of the plugin/theme
+msgid "FancyThemes"
+msgstr "FancyThemes"
+
+#. Plugin URI of the plugin/theme
+msgid "http://fancythemes.com/plugins/optin-forms/"
+msgstr "http://fancythemes.com/plugins/optin-forms/"
+
+#: includes/options-email-solution.php:278
+msgid "Copy your campaign token"
+msgstr "Kopieren Sie Ihr Kampagnen-Kürzel"
+
+#: includes/options-email-solution.php:276
+msgid "Click on your current campaign and click on Campaign List"
+msgstr "Klicken Sie auf \"Aktuelle Kampagne\" und klicken Sie auf \"Kampagnen-Liste\"."
+
+#: includes/options-email-solution.php:273
+msgid "How to find your campaign token"
+msgstr "Wie Sie Ihr Kampagnen-Kürzel finden"
+
+#: includes/options-email-solution.php:254
+msgid "Campaign token"
+msgstr "Kampagnen-Kürzel"
+
+#: includes/sidebar.php:15
+msgid "WordPress Hosting"
+msgstr "WordPress Hosting"
+
+#: optin-forms.php:324
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: optin-forms.php:189
+msgid "Form design"
+msgstr "Formular-Design"
+
+#: optin-forms.php:187
+msgid "Add a beautiful optin form to your posts, custom post types and pages. Include the form on your website with a simple mouse-click, or use the shortcode to add it to specific posts and pages."
+msgstr "Fügen Sie ein schönes Optin Formular zu Ihren Beiträgen, benutzerdefinierten Beitragstypen und Seiten hinzu. Verwenden Sie das Formular mit einem simplen Mausklick auf Ihrer ganzen Website, oder verwenden Sie den Shortcode, um es auf spezifischen Beiträgen und Seiten anzuzeigen."
+
+#: optin-forms.php:166
+msgid "Settings updated"
+msgstr "Einstellungen aktualisiert"
+
+#. #-#-#-#-#  tmp-optin-forms.pot (Optin Forms 1.2.8.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: optin-forms.php:72 optin-forms.php:156
+msgid "Optin Forms"
+msgstr "Optin Forms"
+
+#. #-#-#-#-#  tmp-optin-forms.pot (Optin Forms 1.2.8.1)  #-#-#-#-#
+#. Description of the plugin/theme
+#: optin-forms.php:401
+msgid "Create beautiful optin forms with ease. Choose a form design, customize it, and add your form to your blog with a simple mouse-click."
+msgstr "Erstellen Sie schöne Optin Formulare mit Leichtigkeit. Wählen Sie ein Formular-Design, passen Sie es an und fügen Sie das Formular in Ihr Blog ein mit einem simplen Mausklick."
+
+#: includes/sidebar.php:14
+msgid "Follow me on Twitter"
+msgstr "Folgen Sie mir auf Twitter"
+
+#: includes/sidebar.php:13
+msgid "Translate Optin Forms into your language"
+msgstr "Übersetzen Sie Optin Forms in Ihre Sprache"
+
+#: includes/sidebar.php:12
+msgid "Rate the plugin on WordPress.org"
+msgstr "Das Plugin auf WordPress.org bewerten "
+
+#: includes/sidebar.php:11
+msgid "Get support"
+msgstr "Support erhalten"
+
+#: includes/options-form-placement.php:144
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: includes/options-form-placement.php:143
+msgid "Show"
+msgstr "Zeigen"
+
+#: includes/options-form-placement.php:140
+msgid "Powered by Optin Forms link"
+msgstr "Powered by Optin Forms Link"
+
+#: includes/options-form-placement.php:138
+msgid "If you enjoy our plugin, please consider including a small \"Powered by Optin Forms\" link below your form. You would help us find new users, which would in turn result in even better features ;)"
+msgstr "Wenn Ihnen unser Plugin gefällt, denken Sie bitte daran, einen kleinen Link \"Powered by Optin Forms\" unterhalb Ihres Formulars zu setzen. Sie helfen uns damit, neue Benutzer zu finden, was wiederum dazu führt, dass wir das Produkt verbessern können ;)"
+
+#: includes/options-form-placement.php:133
+msgid "Use the following shortcode to add your form to any post, page or custom post type. Simply paste the shortcode in your editor and you're done. For example, you can disable the automatic inclusion of forms on posts and pages and manually add forms to posts and pages of your choice."
+msgstr "Verwenden Sie den folgenden Shortcode, um Ihr Formular einem beliebigen Beitrag, einer Seite oder einem benutzerdefinierten Beitrags-Typ hinzuzufügen. Kopieren Sie einfach den Shortcode in Ihren Editor, und das war's! Z.B. können Sie die automatische Anzeige von Formularen in Beiträgen und Seiten ausschalten und manuell Formulare zu Beiträgen und Seiten Ihrer Wahl hinzufügen."
+
+#: includes/options-form-placement.php:110
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/options-form-placement.php:104
+msgid "To exclude the form on certain pages, enter a comma separated list of page ID's, e.g. 12, 43, 57"
+msgstr "Um das Formular von bestimmten Seiten auszuschließen, geben Sie eine kommagetrennte Liste von Seiten-IDs ein, z.B. 12,43,57"
+
+#: includes/options-form-placement.php:81
+msgid "Exclude on pages"
+msgstr "Ausschließen von Seiten"
+
+#: includes/options-form-placement.php:69
+msgid "Don't display on pages"
+msgstr "Nicht anzeigen auf Seiten"
+
+#: includes/options-form-placement.php:67
+msgid "After the page"
+msgstr "Nach der Seite"
+
+#: includes/options-form-placement.php:60
+msgid "On pages"
+msgstr "Auf Seiten"
+
+#: includes/options-form-placement.php:54
+msgid "To exclude the form on certain posts, enter a comma separated list of post ID's, e.g. 6, 27, 41"
+msgstr "Um das Formular von bestimmten Beiträgen auszuschließen, geben Sie eine kommagetrennte Liste von Beitrags-IDs ein, z.B. 6,27,47"
+
+#: includes/options-form-placement.php:31
+msgid "Exclude on posts"
+msgstr "Ausschließen von Beiträgen"
+
+#: includes/options-form-placement.php:19
+msgid "Don't display on posts and custom post types"
+msgstr "Nicht anzeigen in Beiträgen und benutzerdefinierten Beitrags-Typen"
+
+#: includes/options-form-placement.php:17
+msgid "After the post"
+msgstr "Nach dem Beitrag"
+
+#: includes/options-form-placement.php:15
+#: includes/options-form-placement.php:65
+msgid "After the second paragraph"
+msgstr "Nach dem zweiten Absatz"
+
+#: includes/options-form-placement.php:13
+#: includes/options-form-placement.php:63
+msgid "After the first paragraph"
+msgstr "Nach dem ersten Absatz"
+
+#: includes/options-form-placement.php:10
+msgid "On posts and custom post types"
+msgstr "In Beiträgen und benutzerdefinierten Beitrags-Typen"
+
+#: includes/options-form-placement.php:5
+msgid "Form Placement"
+msgstr "Formular Platzierung"
+
+#: includes/options-form-functionality.php:14
+msgid "Open form submission in a new window"
+msgstr "Formular Ziel in einem neuen Fenster öffnen."
+
+#: includes/options-form-functionality.php:4
+msgid "Form Functionality"
+msgstr "Formular Funktionalität"
+
+#: includes/options-form-2.php:179 includes/options-form-4.php:290
+msgid "Email field color"
+msgstr "Email Feld Schriftfarbe"
+
+#: includes/options-form-2.php:159 includes/options-form-4.php:270
+msgid "Email field size"
+msgstr "Email Feld Größe"
+
+#: includes/options-form-2.php:139 includes/options-form-4.php:250
+msgid "Email field font"
+msgstr "Email Feld Schriftart"
+
+#: includes/options-form-2.php:121 includes/options-form-4.php:232
+msgid "Email field"
+msgstr "Email Feld"
+
+#: includes/options-form-1.php:673 includes/options-form-2.php:504
+#: includes/options-form-3.php:548 includes/options-form-4.php:622
+#: includes/options-form-5.php:663
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: includes/options-form-1.php:653 includes/options-form-2.php:468
+#: includes/options-form-4.php:602 includes/options-form-5.php:624
+msgid "Hide the disclaimer"
+msgstr "Disclaimer verbergen"
+
+#: includes/options-form-1.php:628 includes/options-form-3.php:528
+#: includes/options-form-5.php:601
+msgid "Hide the name field"
+msgstr "Feld \"Name\" verbergen"
+
+#: includes/options-form-1.php:605 includes/options-form-3.php:491
+#: includes/options-form-4.php:579 includes/options-form-5.php:576
+msgid "Hide the subtitle"
+msgstr "Untertitel verbergen"
+
+#: includes/options-form-1.php:582 includes/options-form-2.php:445
+#: includes/options-form-3.php:468 includes/options-form-4.php:556
+#: includes/options-form-5.php:553
+msgid "Hide the title"
+msgstr "Titel verbergen"
+
+#: includes/options-form-1.php:572 includes/options-form-2.php:435
+#: includes/options-form-3.php:458 includes/options-form-4.php:546
+#: includes/options-form-5.php:543
+msgid "Form Options"
+msgstr "Formular Optionen"
+
+#: includes/options-form-1.php:562 includes/options-form-2.php:426
+#: includes/options-form-3.php:449 includes/options-form-4.php:537
+#: includes/options-form-5.php:534
+msgid "In most cases, you can leave the form width at 100%. This will ensure your form will align perfectly with any WordPress theme and act responsive when scaled on different devices. Please note that the form preview displayed in your WordPress administration panel will not be affected by changing this value."
+msgstr "In den meisten Fällen können Sie die Formular Breite bei 100% belassen. Dadurch wird sichergestellt, dass Ihr Formular sich perfekt in jedes beliebige WordPress Thema einfügt und sich anpasst, wenn es für verschiedene Endgeräte skaliert wird. Bitte beachten Sie, dass die Änderung dieses Wertes  keinen Einfluss hat auf die in Ihrem WordPress Admin-Panel angezeigte Formular Vorschau."
+
+#: includes/options-form-1.php:541 includes/options-form-2.php:406
+#: includes/options-form-3.php:429 includes/options-form-4.php:517
+#: includes/options-form-5.php:514
+msgid "px"
+msgstr "px"
+
+#: includes/options-form-1.php:539 includes/options-form-2.php:404
+#: includes/options-form-3.php:427 includes/options-form-4.php:515
+#: includes/options-form-5.php:512
+msgid "Fixed:"
+msgstr "Fest: "
+
+#: includes/options-form-1.php:536 includes/options-form-2.php:401
+#: includes/options-form-3.php:424 includes/options-form-4.php:512
+#: includes/options-form-5.php:509
+msgid "100%"
+msgstr "100%"
+
+#: includes/options-form-1.php:532 includes/options-form-2.php:397
+#: includes/options-form-3.php:420 includes/options-form-4.php:508
+#: includes/options-form-5.php:505
+msgid "Form width"
+msgstr "Formular Breite"
+
+#: includes/options-form-1.php:507 includes/options-form-2.php:372
+#: includes/options-form-4.php:483 includes/options-form-5.php:480
+msgid "Disclaimer color"
+msgstr "Disclaimer Schriftfarbe"
+
+#: includes/options-form-1.php:487 includes/options-form-2.php:352
+#: includes/options-form-4.php:463 includes/options-form-5.php:460
+msgid "Disclaimer size"
+msgstr "Disclaimer Schriftgröße"
+
+#: includes/options-form-1.php:467 includes/options-form-2.php:332
+#: includes/options-form-4.php:443 includes/options-form-5.php:440
+msgid "Disclaimer font"
+msgstr "Disclaimer Schriftart"
+
+#: includes/options-form-1.php:449 includes/options-form-2.php:314
+#: includes/options-form-4.php:425 includes/options-form-5.php:422
+msgid "Disclaimer text"
+msgstr "Disclaimer Text"
+
+#: includes/options-form-1.php:445 includes/options-form-2.php:310
+#: includes/options-form-4.php:421 includes/options-form-5.php:418
+msgid "You've hidden your disclaimer in Form Options"
+msgstr "Sie haben in den Formular Optionen \"Disclaimer verbergen\" festgelegt"
+
+#: includes/options-form-1.php:422 includes/options-form-2.php:287
+#: includes/options-form-3.php:395 includes/options-form-4.php:398
+#: includes/options-form-5.php:395
+msgid "Button background color"
+msgstr "Button Hintergrundfarbe"
+
+#: includes/options-form-1.php:397 includes/options-form-2.php:262
+#: includes/options-form-3.php:370 includes/options-form-4.php:373
+#: includes/options-form-5.php:370
+msgid "Button text color"
+msgstr "Button Text Schriftfarbe"
+
+#: includes/options-form-1.php:377 includes/options-form-2.php:242
+#: includes/options-form-3.php:350 includes/options-form-4.php:353
+#: includes/options-form-5.php:350
+msgid "Button text size"
+msgstr "Button Text Schriftgröße"
+
+#: includes/options-form-1.php:357 includes/options-form-2.php:222
+#: includes/options-form-3.php:330 includes/options-form-4.php:333
+#: includes/options-form-5.php:330
+msgid "Button text font"
+msgstr "Button Text Schriftart"
+
+#: includes/options-form-1.php:339 includes/options-form-2.php:204
+#: includes/options-form-3.php:312 includes/options-form-4.php:315
+#: includes/options-form-5.php:312
+msgid "Button text"
+msgstr "Button Text"
+
+#: includes/options-form-1.php:313 includes/options-form-3.php:286
+#: includes/options-form-5.php:286
+msgid "Input fields color"
+msgstr "Eingabefelder Farbe"
+
+#: includes/options-form-1.php:292 includes/options-form-3.php:265
+#: includes/options-form-5.php:265
+msgid "Input fields size"
+msgstr "Eingabefelder Größe"
+
+#: includes/options-form-1.php:271 includes/options-form-3.php:244
+#: includes/options-form-5.php:244
+msgid "Input fields font"
+msgstr "Eingabefelder Schriftart"
+
+#: includes/options-form-1.php:253 includes/options-form-3.php:226
+#: includes/options-form-5.php:226
+msgid "Input field: email"
+msgstr "Eingabefeld: Email"
+
+#: includes/options-form-1.php:235 includes/options-form-3.php:208
+#: includes/options-form-5.php:208
+msgid "Input field: name"
+msgstr "Eingabefeld: Name"
+
+#: includes/options-form-1.php:231 includes/options-form-3.php:204
+#: includes/options-form-5.php:204
+msgid "You've hidden your name field in Form Options"
+msgstr "Sie haben in den Formular Optionen \"Namen verbergen\" festgelegt."
+
+#: includes/options-form-1.php:208 includes/options-form-3.php:181
+#: includes/options-form-4.php:207 includes/options-form-5.php:181
+msgid "Subtitle color"
+msgstr "Untertitel Schriftfarbe"
+
+#: includes/options-form-1.php:187 includes/options-form-3.php:161
+#: includes/options-form-4.php:186 includes/options-form-5.php:161
+msgid "Subtitle size"
+msgstr "Untertitel Schriftgröße"
+
+#: includes/options-form-1.php:167 includes/options-form-3.php:141
+#: includes/options-form-4.php:166 includes/options-form-5.php:141
+msgid "Subtitle font"
+msgstr "Untertitel Schriftart"
+
+#: includes/options-form-1.php:149 includes/options-form-3.php:123
+#: includes/options-form-4.php:148 includes/options-form-5.php:123
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: includes/options-form-1.php:145 includes/options-form-3.php:119
+#: includes/options-form-4.php:144 includes/options-form-5.php:119
+msgid "You've hidden your subtitle in Form Options"
+msgstr "Sie haben in den Formular Optionen \"Untertitel verbergen\" festgelegt."
+
+#: includes/options-form-1.php:122 includes/options-form-2.php:96
+#: includes/options-form-3.php:96 includes/options-form-4.php:121
+#: includes/options-form-5.php:96
+msgid "Title color"
+msgstr "Titel Schriftfarbe"
+
+#: includes/options-form-1.php:101 includes/options-form-2.php:75
+#: includes/options-form-3.php:75 includes/options-form-4.php:100
+#: includes/options-form-5.php:75
+msgid "Title size"
+msgstr "Titel Schriftgröße"
+
+#: includes/options-form-1.php:81 includes/options-form-2.php:55
+#: includes/options-form-3.php:55 includes/options-form-4.php:80
+#: includes/options-form-5.php:55
+msgid "Title font"
+msgstr "Titel Schriftart"
+
+#: includes/options-form-1.php:63 includes/options-form-2.php:37
+#: includes/options-form-3.php:37 includes/options-form-4.php:62
+#: includes/options-form-5.php:37
+msgid "Title"
+msgstr "Titel"
+
+#: includes/options-form-1.php:59 includes/options-form-2.php:33
+#: includes/options-form-3.php:33 includes/options-form-4.php:58
+#: includes/options-form-5.php:33
+msgid "You've hidden your title in Form Options"
+msgstr "Sie haben in den Formular Optionen \"Titel verbergen\" festgelegt."
+
+#: includes/options-form-1.php:36 includes/options-form-4.php:35
+msgid "Form border color"
+msgstr "Formular Rahmenfarbe"
+
+#: includes/options-form-1.php:11 includes/options-form-2.php:10
+#: includes/options-form-3.php:10 includes/options-form-4.php:10
+#: includes/options-form-5.php:10
+msgid "Form background color"
+msgstr "Formular Hintergrundfarbe"
+
+#: includes/options-form-1.php:5 includes/options-form-2.php:4
+#: includes/options-form-3.php:4 includes/options-form-4.php:4
+#: includes/options-form-5.php:4
+msgid "Style Your Form"
+msgstr "Formular Erscheinungsbild festlegen"
+
+#: includes/options-email-solution.php:398
+msgid "You will find the name field ID in the address bar"
+msgstr "Sie finden die ID des Feldes \"Name\" in der Adress-Leiste"
+
+#: includes/options-email-solution.php:396
+msgid "Find the name field and click on Edit"
+msgstr "Finden Sie das Feld \"Name\" und klicken Sie auf \"Bearbeiten\""
+
+#: includes/options-email-solution.php:394
+msgid "Click on View Custom Fields from the submenu options"
+msgstr "Klicken Sie auf \"Benutzerdefinierte Felder anzeigen\" aus dem Submenü \"Optionen\""
+
+#: includes/options-email-solution.php:392
+msgid "Click on Contact Lists in the navigation menu"
+msgstr "Klicken Sie auf \"Kontakt-Listen\" im Navigationsmenü"
+
+#: includes/options-email-solution.php:389
+msgid "How to find your name field ID"
+msgstr "Wie Sie die ID des Feldes \"Name\" finden"
+
+#: includes/options-email-solution.php:370
+msgid "Name field ID"
+msgstr "ID des Feldes \"Name\""
+
+#: includes/options-email-solution.php:361
+msgid "Complete all the steps and click on Save"
+msgstr "Vervollständigen Sie alle Schritte und klicken Sie auf \"Speichern\" "
+
+#: includes/options-email-solution.php:357
+msgid "Make sure to uncheck CAPTCHA form security"
+msgstr "Stellen Sie sicher, dass \"CAPTCHA Formularsicherheit\" nicht angekreuzt ist"
+
+#: includes/options-email-solution.php:355
+msgid "Click on Create a Website Form from the submenu options"
+msgstr "Klicken Sie auf \"Website Formular erstellen\" im Submenü \"Optionen\""
+
+#: includes/options-email-solution.php:353
+msgid "Click on Forms in the navigation menu"
+msgstr "Klicken Sie auf \"Formulare\" im Navigationsmenü"
+
+#: includes/options-email-solution.php:351
+#: includes/options-email-solution.php:390
+msgid "Log in to your Interspire Email Marketer administration panel"
+msgstr "Melden Sie sich an Ihrem  Interspire Email Marketer Administrationspanel an"
+
+#: includes/options-email-solution.php:318
+msgid "Click on the Plain Embed tab"
+msgstr "Klicken Sie auf die Registerkarte \"Einfaches Einbetten\" "
+
+#: includes/options-email-solution.php:316
+msgid "Click on the Embed button"
+msgstr "Klicken Sie auf den Knopf \"Einbetten\""
+
+#: includes/options-email-solution.php:314
+#: includes/options-email-solution.php:359
+msgid "Name your form, assign it to a list and include the Name field"
+msgstr "Benennen Sie Ihr Formular, teilen Sie es einer Liste zu und beziehen Sie das Feld \"Name\" mit ein."
+
+#: includes/options-email-solution.php:312
+msgid "Click on the Add a Webform button"
+msgstr "Klicken Sie auf den Knopf \"Webformular hinzufügen\""
+
+#: includes/options-email-solution.php:310
+msgid "Click on Webform"
+msgstr "Klicken Sie auf \"Web Formular\""
+
+#: includes/options-email-solution.php:308
+msgid "Log in to your Mad Mimi account"
+msgstr " \tMelden Sie sich mit Ihrem Mad Mimi Konto an "
+
+#: includes/options-email-solution.php:274
+msgid "Log in to your GetResponse account"
+msgstr "Melden Sie sich mit Ihrem GetResponse Konto an"
+
+#: includes/options-email-solution.php:245
+#: includes/options-email-solution.php:320
+#: includes/options-email-solution.php:363
+msgid "You will find the form action URL in the HTML box"
+msgstr "Sie finden Die Formular action URL in der HTML Box"
+
+#: includes/options-email-solution.php:243
+msgid "Select the Naked form"
+msgstr "Wählen Sie \"Bloßes Formular\""
+
+#: includes/options-email-solution.php:241
+msgid "Select Embedded forms"
+msgstr "Wählen Sie \"Eingebettete Formulare\""
+
+#: includes/options-email-solution.php:239
+msgid "Click on the arrow next to the list you wish to use and click on Signup forms"
+msgstr "Klicken Sie auf den Pfeil neben der Liste, welche Sie verwenden möchten, und klicken Sie auf \"Anmelde-Formulare\""
+
+#: includes/options-email-solution.php:237
+msgid "Click on Lists in the navigation menu"
+msgstr "Klicken Sie auf \"Listen\" im Navigationsmenü"
+
+#: includes/options-email-solution.php:235
+msgid "Log in to your MailChimp account"
+msgstr "Melden Sie sich mit Ihrem MailChimp Konto an "
+
+#: includes/options-email-solution.php:234
+#: includes/options-email-solution.php:307
+#: includes/options-email-solution.php:350
+msgid "How to find your form action URL"
+msgstr "Wie Sie Ihre Formular action URL finden"
+
+#: includes/options-email-solution.php:215
+#: includes/options-email-solution.php:288
+#: includes/options-email-solution.php:329
+msgid "Form action URL"
+msgstr "Formular action URL"
+
+#: includes/options-email-solution.php:206
+msgid "If you leave this field blank, the default iContact error message will be used."
+msgstr "Wenn Sie dieses Feld leer lassen, wird die voreingestellte iContact Fehlermeldung verwendet. "
+
+#: includes/options-email-solution.php:206
+msgid "Enter the URL of the page where your visitors will be taken to, if there are any errors."
+msgstr "Geben Sie den URL der Seite ein, wohin Ihre Besucher weitergeleitet werden, falls Fehler auftreten."
+
+#: includes/options-email-solution.php:187
+msgid "Error page URL"
+msgstr "URL der Fehlerseite"
+
+#: includes/options-email-solution.php:181
+msgid "If you leave this field blank, the default iContact message will be used."
+msgstr "Wenn Sie dieses Feld leer lassen, wird die voreingestellte iContact Nachricht verwendet."
+
+#: includes/options-email-solution.php:162
+msgid "Redirect page URL"
+msgstr "URL der Redirect-Seite"
+
+#: includes/options-email-solution.php:156
+msgid "Scroll down to the Manual Sign-up Form and copy the values of listid, specialid and clientid fields"
+msgstr "Scrollen  Sie hinunter bis zum Formular \"manuelle Registrierung\" und kopieren Sie die Werte der Felder \"Listen ID\", \"Spezial ID\" und \"Kunden ID\""
+
+#: includes/options-email-solution.php:154
+msgid "Click on the View HTML link"
+msgstr "Klicken Sie auf den Link \"HTML ansehen\""
+
+#: includes/options-email-solution.php:152
+msgid "Click on Save"
+msgstr "Klicken Sie auf \"Speichern\""
+
+#: includes/options-email-solution.php:150
+msgid "Name your form, assign it to a list and include the First Name field"
+msgstr "Benennen Sie Ihr Formular, teilen Sie es einer Liste zu und beziehen Sie das Feld \"Vorname\" mit ein."
+
+#: includes/options-email-solution.php:148
+msgid "Click on Next"
+msgstr "Klicken Sie auf \"Nächstes\""
+
+#: includes/options-email-solution.php:146
+msgid "Click on the Create HTML Form button"
+msgstr "Klicken Sie auf den Knopf \"HTML Formular erstellen\""
+
+#: includes/options-email-solution.php:144
+msgid "Click on Sign-up Forms in the submenu"
+msgstr "Klicken Sie auf Registrations-Formulare im Submenü"
+
+#: includes/options-email-solution.php:142
+msgid "Click on Contacts in the navigation menu"
+msgstr "Klicken Sie auf \"Kontakte\" im Navigationsmenü"
+
+#: includes/options-email-solution.php:140
+msgid "Log in to your iContact account"
+msgstr "Mit Ihrem iContact Konto anmelden"
+
+#: includes/options-email-solution.php:139
+msgid "How to find your list ID, special ID and client ID values"
+msgstr "Wie sie Ihre Listen ID, Spezial ID und Kunden ID Werte finden"
+
+#: includes/options-email-solution.php:120
+msgid "Client ID"
+msgstr "Kunden ID"
+
+#: includes/options-email-solution.php:110
+msgid "Special ID"
+msgstr "Spezial ID"
+
+#: includes/options-email-solution.php:90
+msgid "If you leave this field blank, the default AWeber message will be used."
+msgstr "Wenn Sie dieses Feld leer lassen, wird die voreingestellte AWeber Nachricht verwendet."
+
+#: includes/options-email-solution.php:90
+#: includes/options-email-solution.php:181
+msgid "Enter the URL of the page where your visitors will be taken to, once they successfully subscribe."
+msgstr "Geben Sie den URL der Seite ein, wohin Ihre Besucher weitergeleitet werden, nachdem sie sich erfolgreich registriert haben."
+
+#: includes/options-email-solution.php:71
+msgid "Redirect URL"
+msgstr "Redirect URL"
+
+#: includes/options-email-solution.php:64
+msgid "You will find your list ID below the List Name field"
+msgstr "Sie finden Ihre Listen ID unterhalb des Feldes \"Listen Name\""
+
+#: includes/options-email-solution.php:62
+msgid "Click on List Settings from the submenu options"
+msgstr "Klicken Sie auf \"Listen Einstellungen\" im Submenü \"Optionen\""
+
+#: includes/options-email-solution.php:60
+msgid "Click on List Options in the navigation menu"
+msgstr "Klicken Sie auf \"Listen Optionen\" im Navigationsmenü"
+
+#: includes/options-email-solution.php:58
+msgid "Log in to your AWeber account"
+msgstr "Mit Ihrem AWeber Konto anmelden"
+
+#: includes/options-email-solution.php:57
+msgid "How to find your list ID"
+msgstr "Wie Sie Ihre Listen ID finden"
+
+#: includes/options-email-solution.php:38
+#: includes/options-email-solution.php:100
+msgid "List ID"
+msgstr "Listen ID"
+
+#: includes/options-email-solution.php:5
+msgid "My email solution is"
+msgstr "Meine Email-Lösung ist"
+
+#: includes/options-email-solution.php:3
+msgid "Select your email solution and configure the required fields."
+msgstr "Wählen Sie Ihre Email-Lösung und füllen Sie die erforderlichen Felder aus. "
+
+#: includes/functions.php:496
+msgid "I know, don't bug me"
+msgstr "Ich weiß, nerv mich nicht"
+
+#: includes/functions.php:496
+msgid "Your email solution is not configured yet. Your form will not work properly until you configure the settings."
+msgstr "Ihre Email-Lösung ist noch nicht konfiguriert. Ihr Formular wird nicht korrekt funktionieren, bevor Sie die Einstellungen konfigurieren. "
+
+#: includes/functions.php:42
+msgid "Form"
+msgstr "Von"
+
+#: includes/functions.php:41
+msgid "Email Solution"
+msgstr "Email-Lösung"
+
+#: includes/functions-form-5.php:312
+msgid "We hate spam. Your email address will not be sold or shared with anyone else."
+msgstr "Wir hassen Spam. Ihre Email Adresse wird nicht verkauft oder an Drittparteien weitergegeben."
+
+#: includes/functions-form-5.php:242
+msgid "SUBSCRIBE FOR FREE"
+msgstr "GRATIS ABONNIEREN"
+
+#: includes/functions-form-5.php:181
+msgid "Enter Your Email"
+msgstr "Geben Sie Ihre Email Adresse ein"
+
+#: includes/functions-form-5.php:110
+msgid "Join over 3.000 visitors who are receiving our newsletter and learn how to optimize your blog for search engines, find free traffic, and monetize your website."
+msgstr "Schließen Sie sich über 3000 Besuchern an, welche unseren Newsletter erhalten, und lernen Sie, wie Sie Ihren Blog für Suchmaschinen optimieren, gratis Traffic finden und Ihre Website vermarkten."
+
+#: includes/functions-form-5.php:49
+msgid "JOIN OUR NEWSLETTER"
+msgstr "ABONNIEREN SIE UNSEREN NEWSLETTER"
+
+#: includes/functions-form-4.php:310
+msgid "We respect your privacy"
+msgstr "Wir respektieren Ihre Privatsphäre"
+
+#: includes/functions-form-4.php:240
+msgid "Get Instant Access"
+msgstr "Sofort Zugang erhalten"
+
+#: includes/functions-form-4.php:179 includes/functions-form-6.php:7
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+#: includes/functions-form-4.php:118
+msgid "Enter your email address and click on the Get Instant Access button."
+msgstr "Geben Sie Ihre Email Adresse ein und klicken Sie auf den Knopf \"Sofort Zugang erhalten\"."
+
+#: includes/functions-form-4.php:57
+msgid "Get the FREE eBook..."
+msgstr "Erhalten Sie das gratis eBook..."
+
+#: includes/functions-form-3.php:236
+msgid "Sign Up Today!"
+msgstr "Registrieren Sie sich heute!"
+
+#: includes/functions-form-3.php:175
+msgid "Your Email Address"
+msgstr "Ihre Email Adresse"
+
+#: includes/functions-form-3.php:166
+msgid "Your Name"
+msgstr "Dein Name"
+
+#: includes/functions-form-3.php:105
+msgid "Signup today and receive free updates straight in your inbox. We will never share or sell your email address."
+msgstr "Registrieren Sie sich heute und bekommen Sie gratis Benachrichtigungen direkt in Ihre Inbox. Wir werden niemals Ihre Email Adresse weitergeben oder verkaufen."
+
+#: includes/functions-form-3.php:44
+msgid "Did you enjoy this article?"
+msgstr "Hat Ihnen dieser Artikel gefallen?"
+
+#: includes/functions-form-2.php:234
+msgid "No spam guarantee."
+msgstr "Garantiert kein Spam."
+
+#: includes/functions-form-2.php:164
+msgid "Sign Up"
+msgstr "Registrieren"
+
+#: includes/functions-form-2.php:42
+msgid "Receive Updates"
+msgstr "Benachrichtigungen erhalten"
+
+#: includes/functions-form-1.php:321
+msgid "I will never give away, trade or sell your email address. You can unsubscribe at any time."
+msgstr "Ich werde niemals Ihre Email Adresse weitergeben, handeln oder verkaufen. Sie können die Benachrichtigung jederzeit abbestellen."
+
+#: includes/functions-form-1.php:251
+msgid "SIGN UP"
+msgstr "REGISTRIEREN"
+
+#: includes/functions-form-1.php:190 includes/functions-form-2.php:103
+msgid "Enter Your Email Address"
+msgstr "Geben Sie Ihre Email Adresse ein"
+
+#: includes/functions-form-1.php:181 includes/functions-form-5.php:172
+msgid "Enter Your Name"
+msgstr "Geben Sie Ihren Namen ein"
+
+#: includes/functions-form-1.php:120
+msgid "Signup now and receive an email once I publish new content."
+msgstr "Registrieren Sie sich jetzt, um eine Email zu erhalten, wenn ich neue Inhalte publiziere."
+
+#: includes/functions-form-1.php:59
+msgid "Get Free Email Updates!"
+msgstr "Bekommen Sie gratis Email Benachrichtigungen!"

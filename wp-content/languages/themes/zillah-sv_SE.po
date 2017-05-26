@@ -1,0 +1,458 @@
+# Translation of Themes - Zillah in Swedish
+# This file is distributed under the same license as the Themes - Zillah package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-05 14:36:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - Zillah\n"
+
+#. Description of the plugin/theme
+msgid "Zillah is a free minimal blogging WordPress theme from ThemeIsle. Is responsive and compatible with a wide range of plugins like : Nivo Slider, Siteorigin Page Builder, WooCoomerce, Photo Gallery Grid and Contact Form 7."
+msgstr "Zillah är ett fritt, minimalistiskt bloggtema för WordPress från ThemeIsle. Det är responsivt och kompatibel med ett brett utbud av tillägg, så som: Nivo Slider, Siteorigin Page Builder, WooCoomerce, Photo Gallery Grid och Contact Form 7."
+
+#. Theme Name of the plugin/theme
+msgid "Zillah"
+msgstr "Zillah"
+
+#: inc/template-tags.php:143
+msgid "Posted:"
+msgstr "Publicerat:"
+
+#: inc/template-tags.php:142
+msgid "Updated:"
+msgstr "Uppdaterat:"
+
+#: inc/customizer.php:116
+msgid "Show updated date in post header."
+msgstr "Visa datum för uppdateringar i inläggshuvud."
+
+#. translators: %s: post title
+#: comments.php:34
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "En kommentar till &rdquo;%s&rdquo;"
+
+#. translators: 1: number of comments, 2: post title
+#: inc/template-tags.php:187
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s kommentar"
+msgstr[1] "%1$s kommentarer"
+
+#. translators: %s: post title
+#: inc/template-tags.php:183
+msgctxt "comments title"
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/customizer.php:60
+msgid "If you check this box, the alternative layout will be used on blog and single page."
+msgstr "Om du markerar det här valet så används den alternativa layouten på blogg och enskilda inläggssidor."
+
+#: inc/customizer.php:59
+msgid "Alternative layout"
+msgstr "Alternativ layout"
+
+#. translators: s: The post title
+#: functions.php:313
+msgid "Read the post %s"
+msgstr "Läs inlägget %s"
+
+#. translators: %s: Name of current post.
+#: template-parts/content-single-alternative.php:41
+#: template-parts/content-single.php:40
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Fortsätt läsa %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:35
+msgid "Edit %s"
+msgstr "Redigera %s"
+
+#: template-parts/content-alternative.php:49 template-parts/content-page.php:22
+#: template-parts/content-single-alternative.php:50
+#: template-parts/content-single.php:49 template-parts/content.php:58
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: template-parts/content-none.php:42
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar som att vi inte kan hitta det du letar efter. Prova att göra en sökning."
+
+#: template-parts/content-none.php:36
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ingenting matchade din sökning. Pröva gärna igen med andra sökord."
+
+#. translators: 1: link to new post
+#: template-parts/content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Börja här</a>."
+
+#: template-parts/content-none.php:16
+msgid "Sorry, nothing found!"
+msgstr "Ledsen, inget kunde hittas här!"
+
+#: single.php:29
+msgctxt "next post"
+msgid "<span class=\"post-title\">%title</span>"
+msgstr "<span class=\"post-title\">%title</span>"
+
+#: single.php:28
+msgctxt "previous post"
+msgid "<span class=\"post-title\">%title</span>"
+msgstr "<span class=\"post-title\">%title</span>"
+
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr "﻿Sök"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Sök &hellip;"
+
+#: searchform.php:11 searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#. translators: s: search term
+#: search.php:20
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: inc/widgets/class-zillah-about-me.php:104
+msgid "Add your text:"
+msgstr "Lägg till din text:"
+
+#: inc/widgets/class-zillah-about-me.php:101
+msgid "Enter the URL for your photo"
+msgstr "Ange adress för din bild"
+
+#: inc/widgets/class-zillah-about-me.php:98
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widgets/class-zillah-about-me.php:25
+msgid "Zillah: About me"
+msgstr "Zillah: Om mig"
+
+#: inc/widgets/class-zillah-about-me.php:19
+msgid "About me widget."
+msgstr "Om mig - widget."
+
+#: inc/template-tags.php:164
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Kategorier"
+
+#: inc/template-tags.php:161
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:67
+msgid " Edit %s"
+msgstr " Redigera %s"
+
+#. translators: 1: tags
+#: inc/template-tags.php:59
+msgid "Tagged %1$s"
+msgstr "Taggat %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:56
+msgid ", "
+msgstr ", "
+
+#. translators: s: post author
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid "by %s"
+msgstr "av %s"
+
+#. translators: s: post date
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicerat %s"
+
+#. translators: 1: feature name 2: Jetpack module name
+#: inc/class-zillah-theme-plugin-enhancements.php:325
+msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
+msgstr "Om du vill använda %1$s, vänligen aktivera Jetpack-moduler %2$s."
+
+#: inc/class-zillah-theme-plugin-enhancements.php:299
+msgid "Install"
+msgstr "Installera"
+
+#. translators: 1: plugin name 2: install link
+#: inc/class-zillah-theme-plugin-enhancements.php:297
+msgid " Please install %1$s. %2$s"
+msgstr " Vänligen installera %1$s. %2$s"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:288
+msgid "Activate"
+msgstr "Aktivera"
+
+#. translators: 1: plugin name 2: activation link
+#: inc/class-zillah-theme-plugin-enhancements.php:286
+msgid " Please activate %1$s. %2$s"
+msgstr " Vänligen aktivera %1$s. %2$s"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:214
+msgid "Custom Content Types module"
+msgstr "Modul för anpassade innehållstyper"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:213
+msgid "no specific module needed"
+msgstr "ingen specifik modul krävs"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:195
+msgid "Social Links"
+msgstr "Sociala länkar"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:186
+msgid "Related Posts"
+msgstr "Liknande inlägg"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:177
+msgid "Portfolios"
+msgstr "Portfolio"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:168
+msgid "Testimonials"
+msgstr "Omdömen"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:159
+msgid "Comics"
+msgstr "Serietidningar"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:150
+msgid "Menus"
+msgstr "Menyer"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:141
+msgid "Social Menu"
+msgstr "Social meny"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:132
+msgid "Featured Content"
+msgstr "﻿Utvalt innehåll"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:123
+msgid "Site Logo"
+msgstr "Webbplatsens logotyp"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:101
+msgid "Simple Contact Form Plugin - PirateForms plugin"
+msgstr "Simple Contact Form - PirateForms"
+
+#. translators:  'Simple Contact Form Plugin - PirateForms plugin'
+#: inc/class-zillah-theme-plugin-enhancements.php:100
+msgid "The %1$s is recommended to use some of this theme&rsquo;s features."
+msgstr "Tillägget %1$s rekommenderas för att kunna använda vissa av detta temas funktionalitet."
+
+#: inc/class-zillah-theme-plugin-enhancements.php:92
+msgid "Jetpack plugin"
+msgstr "Jetpack"
+
+#. translators:  'Jetpack plugin'
+#: inc/class-zillah-theme-plugin-enhancements.php:91
+msgid "The %1$s is recommended to use some of this theme&rsquo;s features, including: "
+msgstr "Tillägget %1$s rekommenderas för att kunna använda vissa av detta temas funktionalitet, inkluderat:"
+
+#: inc/customizer.php:267
+msgid "Logo"
+msgstr "Logotyp"
+
+#: inc/customizer.php:160
+msgid "Change the color scheme"
+msgstr "Ändra färgschema"
+
+#: inc/customizer.php:136
+msgid "If you check this box, the slider area will appear on the homepage."
+msgstr "Om du markerar det här valet så visas bildspelet på startsidan."
+
+#: inc/customizer.php:135
+msgid "Show slider"
+msgstr "Visa bildspel"
+
+#: inc/customizer.php:124
+msgid "Featured content slider"
+msgstr "Bildspel för utvalt innehåll"
+
+#: inc/customizer.php:103
+msgid "Get 1st image in the post as featured."
+msgstr "Hämta den första bilden i inlägget som utvald bild."
+
+#: inc/customizer.php:90
+msgid "If you check this box, the tags will appear in posts."
+msgstr "Om du markerar det här valet så kommer taggar att visas i inlägg."
+
+#: inc/customizer.php:89
+msgid "Show tags"
+msgstr "Visa taggar"
+
+#: inc/customizer.php:75
+msgid "If you check this box, the sidebar will appear on homepage and archive page."
+msgstr "Om du markerar det här valet så kommer sidofältet att visas på startsidan och arkivsidor."
+
+#: inc/customizer.php:74
+msgid "Show sidebar"
+msgstr "Visa sidofält"
+
+#: inc/customizer.php:48
+msgid "Theme options"
+msgstr "Temainställningar"
+
+#: inc/customizer.php:40
+msgid "Hide Site Title"
+msgstr "Dölj webbplatsens titel"
+
+#: inc/class/class-zillah-category-control.php:24
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Välj &mdash;"
+
+#: inc/class/class-zillah-palette.php:64 inc/class/class-zillah-palette.php:73
+msgid "Default"
+msgstr "Förvalt"
+
+#: inc/class/class-zillah-google-fonts-control.php:62
+msgid "No fonts to show"
+msgstr "Inga teckensnitt att visa"
+
+#: header.php:28
+msgid "Skip to content"
+msgstr "Hoppa till innehållet"
+
+#. translators: s: The post title
+#: functions.php:304 functions.php:321
+msgid "Continue Reading %s"
+msgstr "Fortsätt läsa %s"
+
+#: functions.php:226
+msgid "collapse child menu"
+msgstr "minimera undermeny"
+
+#: functions.php:225
+msgid "expand child menu"
+msgstr "maximera undermeny"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Bitter, translate this to 'off'. Do not translate into your own language.
+#: functions.php:183
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Bitter, translate this to 'off'. Do not translate into your own language.
+#: functions.php:176
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Bitter, translate this to 'off'. Do not translate into your own language.
+#: functions.php:169
+msgctxt "Cabin font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: d: Sidebar number
+#: functions.php:129
+msgid "Footer Widget Area %d"
+msgstr "Widgetfält för sidfot %d"
+
+#: functions.php:120 functions.php:132
+msgid "Add widgets here."
+msgstr "Lägg till widgets här."
+
+#: functions.php:118 sidebar.php:21
+msgid "Sidebar"
+msgstr "Sidofält"
+
+#: functions.php:52
+msgid "Social Links Menu"
+msgstr "Meny för sociala länkar"
+
+#: functions.php:51
+msgid "Primary"
+msgstr "Primär"
+
+#: footer.php:75
+msgid "Back to top"
+msgstr "Till toppen"
+
+#. translators: s: 'Themeisle'
+#: footer.php:71
+msgid "Themeisle"
+msgstr "Themeisle"
+
+#. translators: 1: Link to ThemeIsle.com
+#: footer.php:69
+msgid "Theme Zillah by %1$s"
+msgstr "Tema Zillah av %1$s"
+
+#. translators: 1: s: 'WordPress'
+#: footer.php:63
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: 1: Link to WordPress.org
+#: footer.php:61
+msgid "Proudly powered by %1$s"
+msgstr "Drivs med %1$s"
+
+#: comments.php:93
+msgid "Comments are closed."
+msgstr "Kommentarer inaktiverade."
+
+#: comments.php:58 comments.php:80
+msgid "Newer Comments"
+msgstr "Nyare kommentarer"
+
+#: comments.php:57 comments.php:79
+msgid "Older Comments"
+msgstr "Äldre kommentarer"
+
+#: comments.php:54 comments.php:76
+msgid "Comment navigation"
+msgstr "Kommentarsnavigation"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:38
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s kommentar till &rdquo;%2$s&rdquo;"
+msgstr[1] "%1$s kommentarer till &rdquo;%2$s&rdquo;"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Det ser ut som om inget fanns här. Vill du kanske testa en av länkarna nedan eller en sökning?"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppsan! Sidan kunde inte hittas."
+
+#. Author URI of the plugin/theme
+msgid "http://themeisle.com"
+msgstr "http://themeisle.com"
+
+#. Author of the plugin/theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the plugin/theme
+msgid "https://themeisle.com/themes/zillah/"
+msgstr "https://themeisle.com/themes/zillah/"

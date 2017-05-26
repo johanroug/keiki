@@ -56,25 +56,6 @@ $portfolio_gallery = a3_portfolio_get_gallery( $portfolio_id );
 
 	<div class="a3-portfolio-item-expander-content" style="position: absolute;visibility: hidden;">
 
-		<!--
-		<div class="a3-portfolio-item-image-container" data-portfolioId="<?php echo $portfolio_id; ?>">
-
-			<?php do_action( 'a3_portfolio_before_item_expander_large_image_container', $portfolio_id ); ?>
-
-			<?php a3_portfolio_get_large_image_container( $portfolio_id, $portfolio_gallery ); ?>
-
-			<?php
-				/**
-				 * a3_portfolio_after_item_expander_large_image_container hook
-				 *
-				 * @hooked a3_portfolio_get_thumbs_below_gallery - 10
-				 */
-				do_action( 'a3_portfolio_after_item_expander_large_image_container', $portfolio_id );
-			?>
-
-		</div>
-		-->
-
 		<div class="a3-portfolio-item-content-container">
 
 			<?php do_action( 'a3_portfolio_before_item_expander_title', $portfolio_id ); ?>
@@ -85,47 +66,26 @@ $portfolio_gallery = a3_portfolio_get_gallery( $portfolio_id );
 
 			<?php do_action( 'a3_portfolio_after_item_expander_title', $portfolio_id ); ?>
 
-			<?php
-				/**
-				 * a3_portfolio_before_item_expander_content hook
-				 *
-				 * @hooked a3_portfolio_get_entry_metas - 5
-				 * @hooked a3_portfolio_get_social_icons - 10
-				 * @hooked a3_portfolio_get_thumbs_right_gallery - 20
-				 */
+			<?php				
 				do_action( 'a3_portfolio_before_item_expander_content', $portfolio_id );
 			?>
 
-			<?php
-				/**
-				 * a3_portfolio_before_item_expander_content hook
-				 *
-				 * @hooked a3_portfolio_get_expander_attribute_above_desc - 10
-				 */
+			<?php				
 				do_action( 'a3_portfolio_before_item_expander_full_content', $portfolio_id );
 			?>
 
-			<div class="a3-portfolio-item-content-text">
-				<?php echo wpautop( do_shortcode( get_the_content() ) ); ?>
+			<?php
+				$txt = do_shortcode( get_the_content() ) ;			
+			?>
+			<div class="a3-portfolio-item-content-text" data-keiki="<?php echo $txt; ?>">
+				
 			</div>
 
-			<?php
-				/**
-				 * a3_portfolio_after_item_expander_full_content hook
-				 *
-				 */
+			<?php				
 				do_action( 'a3_portfolio_after_item_expander_full_content', $portfolio_id );
 			?>
 
-			<?php
-				/**
-				 * a3_portfolio_after_item_expander_content hook
-				 *
-				 * @hooked a3_portfolio_main_get_categories_meta - 5
-				 * @hooked a3_portfolio_main_get_tags_meta - 10
-				 * @hooked a3_portfolio_main_get_launch_button - 20
-				 * @hooked a3_portfolio_get_expander_attribute_bottom_content - 30
-				 */
+			<?php				
 				do_action( 'a3_portfolio_main_after_item_expander_content', $portfolio_id );
 			?>
 

@@ -1,0 +1,15 @@
+/*
+Theme Name: Keiki
+Description: A search engine optimized website framework for WordPress, made specifically for Keiki.dk
+Author: no such agency
+Version: 1.0
+.
+Your theme can be your copyrighted work.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+@import url('css/font.css');
+@import url('css/bootstrap.css');
+@import url('css/style.css');

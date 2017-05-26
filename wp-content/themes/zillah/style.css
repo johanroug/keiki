@@ -2261,7 +2261,7 @@ object {
 }
 
 .header-inner-top {
-    background: #c182da;
+    background: #4c91c1;
 }
 
 .header-inner {
@@ -2936,10 +2936,6 @@ div.sharedaddy h3.sd-title:before {
 	background-color; #ffffff;
     }
 
-    .header-inner-site-branding.header-logo-wrap-single .header-logo-wrap img {
-        max-height: 145px;
-    }
-
     .header-inner-site-branding.header-logo-wrap-single .site-description {
         font-size: 0.9375em;
     }
@@ -3077,6 +3073,10 @@ h2 {
 
     .post-navigation {
         display: block;
+    }
+
+.header-inner-site-branding.header-logo-wrap-single .header-logo-wrap img {
+        max-height: 145px;
     }
 
 
@@ -3618,6 +3618,10 @@ body {
         font-size: 15px;
     }
 
+    .header-inner-site-branding.header-logo-wrap-single .header-logo-wrap img {
+    	width: 40%;
+    }
+
     .comment-content {
         font-size: 15px;
         font-size: 1em;
@@ -3632,6 +3636,7 @@ body {
         padding-left: 0;
     }
 }
+
 
 @media screen and (max-width: 991px){
   .container-header {

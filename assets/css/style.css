@@ -1,0 +1,39 @@
+body {
+  background-image: url(../images/body_top.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+div.container {
+  padding-top: 50px;
+}
+.skip-link {
+  display: none;
+}
+.subscribe-header {
+  background-image: url(../images/subscribe_bg.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  height: 178px;
+}
+.footer {
+  font-size: 12px;
+}
+.footer div.block {
+  height: 57px;
+  position: relative;
+}
+.footer .logo {
+  margin-right: 15px;
+  vertical-align: bottom;
+}
+.footer .address,
+.footer .footer-menu {
+  bottom: 0px;
+  position: absolute;
+}
+.footer .address {
+  left: 0px;
+}
+.footer .footer-menu {
+  right: 0px;
+}
