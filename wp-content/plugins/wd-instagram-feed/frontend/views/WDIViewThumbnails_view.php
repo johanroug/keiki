@@ -99,13 +99,10 @@ public function generate_feed_styles($feed_row){
 		min-width: 160px;
 	    width: <?php echo $style['feed_container_width']?>; 
 	    margin: 0 auto;
-	    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
-		border-bottom: 5px solid <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/;
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_wrapper{
 		width: <?php echo $style['feed_wrapper_width']?>; /*feed_wrapper_width,column number * image size*/
 		margin: 0 auto;
-		background-color: <?php echo $style['feed_wrapper_bg_color']?>;/*feed_wrapper_bg_color*/
 		text-align: <?php echo $style['header_position']?>;/*header_position*/
 	}
 
@@ -294,12 +291,12 @@ public function generate_feed_styles($feed_row){
 	}
 
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_photo_wrap {
-	    padding: <?php echo $style['th_photo_wrap_padding']?>; /*photo_wrap_padding*/
 	    position: relative;
-	    width: calc(100% - 2*<?php echo $style['th_photo_wrap_padding']?>);
-	    display: inline-block;
-		  box-sizing:content-box;
+	    width: 100%;
+	    display: block;
+		box-sizing:content-box;
 	    overflow: hidden;
+		margin-bottom: 5px;
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_photo_wrap:after{
 		padding-top: 100%;
@@ -312,7 +309,6 @@ public function generate_feed_styles($feed_row){
 		bottom: 0;
 		left: 0;
 		right: 0;
-		border: <?php echo $style['th_photo_wrap_border_size']?> solid <?php echo $style['th_photo_wrap_border_color']?>;/*photo_wrap_border_size,photo_wrap_border_color*/
 	    background-color: <?php echo $style['th_photo_wrap_bg_color']?>;/*photo_wrap_bg_color*/
 	}
 	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_photo_img{
@@ -506,48 +502,35 @@ public function generate_feed_styles($feed_row){
 
 	<?php  if($feed_row['disable_mobile_layout']=="0"){
 		?>
-	@media screen and (min-width: 800px) and (max-width:1024px){
+	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
+		width: 100%; 
+		margin: 0 auto;
+	}
+
+	#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item{
+		width: <?php echo ($colNum<100) ? '50%' : $colNum.'%'?>;/*thumbnail_size*/
+		margin: 0;
+		display: inline-block;
+		vertical-align: top;
+		overflow: hidden;
+	}
+		
+	@media screen and (min-width: 480px) {
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item{
-			width: <?php echo ($colNum<33.33) ? '33.333333333333%' : $colNum.'%'?>;/*thumbnail_size*/
-			margin: 0;
-			display: inline-block;
-			vertical-align: top;
-			overflow: hidden;
+			width: <?php echo ($colNum<50) ? '33.3333333333%' : $colNum.'%'?>;/*thumbnail_size*/			
 		}
-		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
-		    width: 100%; 
-		    margin: 0 auto;
-		    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
+	}	
+	@media screen and (min-width: 800px) {
+		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item{
+			width: <?php echo ($colNum<33.33) ? '25%' : $colNum.'%'?>;/*thumbnail_size*/		
 		}
 		
 	}
-	@media screen and (min-width: 480px) and (max-width:800px){
+	@media screen and (min-width: 1200px) {
 		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item{
-			width: <?php echo ($colNum<50) ? '50%' : $colNum.'%'?>;/*thumbnail_size*/
-			margin: 0;
-			display: inline-block;
-			vertical-align: top;
-			overflow: hidden;
+			width: <?php echo ($colNum<33.33) ? '20%' : $colNum.'%'?>;/*thumbnail_size*/		
 		}
-		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
-		    width: 100%; 
-		    margin: 0 auto;
-		    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
-		}
-	}
-	@media screen and (max-width: 480px){
-		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_item{
-			width: <?php echo ($colNum<100) ? '100%' : $colNum.'%'?>;/*thumbnail_size*/
-			margin: 0;
-			display: inline-block;
-			vertical-align: top;
-			overflow: hidden;
-		}
-		#wdi_feed_<?php echo $wdi_feed_counter?> .wdi_feed_container {
-		    width: 100%; 
-		    margin: 0 auto;
-		    background-color: <?php echo $style['feed_container_bg_color']?>;/*feed_container_bg_color*/
-		}
+		
 	}
 	<?php } ?>
 	</style>
