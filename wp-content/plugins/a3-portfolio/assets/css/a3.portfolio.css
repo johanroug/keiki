@@ -40,6 +40,7 @@
     padding-right:0px;
     padding-bottom:20px;
     padding-left:0px;
+    display: block !important;
     }
 .a3-portfolio-menus-container ul.filter{
     margin-bottom:0;
@@ -669,18 +670,13 @@
         max-width: 100% !important
     }
 }
-@media only screen and (min-width: 737px) {
-    .a3-portfolio-menus-container {
-        display: block !important
-    }
+
 }
 @media only screen and (max-width: 736px) {
     .a3-portfolio-navigation-mobile {
         display: block
     }
-    .a3-portfolio-menus-container {
-        display: none
-    }
+   
     .a3-portfolio-expander-popup {
         height: auto !important;
         padding: 0 !important
@@ -750,6 +746,42 @@
 }
 
 
+/****************** THUMBNAILS PARENT *******************/
+.a3-portfolio-box-content {
+    width: 100%
+}
+
+/****************** THUMBNAIL *******************/
+.a3-portfolio-item {
+    width: 100%;
+    margin-bottom: 4%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 29.3%;
+}
+
+@media only screen and (min-width: 572px) {    
+    .a3-portfolio-item {
+        margin-bottom: 3%;
+        margin-right: 1.5%;
+        margin-left: 1.5%;
+        width: 22%;
+    }
+}
+
+@media only screen and (min-width: 768px) {    
+    .a3-portfolio-item {
+        margin-bottom: 2%;
+        margin-right: 1%;
+        margin-left: 1%;
+        width: 18%;
+    }
+}
+
+
+
+/****************** POPUP *******************/
 .a3-portfolio-expander-popup {
     margin: 0;
     left: 50% !important;
@@ -757,6 +789,9 @@
     transform: translate(-50%);
     width: 1110px;
 }
+.a3-portfolio-item-content-container {
+        width: 100% !important;
+    }
 
 @media screen and (min-width: 1600px) {
     .a3-portfolio-expander-popup {
@@ -768,18 +803,34 @@
     .a3-portfolio-expander-popup {
         width: 1010px !important;
     }
-
-    .a3-portfolio-item-content-container {
-        width: 100% !important;
-    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .a3-portfolio-expander-popup {
-        width: 1010px !important;
+        width: 905px !important;
     }
+}
 
-    .a3-portfolio-item-content-container {
+@media screen and (min-width: 850px) and (max-width: 991px) {
+    .a3-portfolio-expander-popup {
+        width: 765px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 849px) {
+    .a3-portfolio-expander-popup {
+        width: 670px !important;
+    }
+}
+
+@media only screen and (min-width: 572px) and (max-width: 767px) {
+    .a3-portfolio-expander-popup {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+    .a3-portfolio-expander-popup {
         width: 100% !important;
     }
 }
