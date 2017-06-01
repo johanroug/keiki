@@ -173,6 +173,7 @@
     font-size:12px;
 }
 
+/*** Sticker ***/
 .keiki-sticker {
     z-index: 200;
     position: relative;
@@ -186,6 +187,7 @@
     margin-top: -72px;
     margin-bottom: -128px;
     padding-left: 50px;
+    padding-right: 672px;
 }
 .keiki-sticker .so-widget-image{
     height: 200px !important;
@@ -197,6 +199,7 @@
     margin-top: -60px;
     margin-bottom: -110px;
     padding-left: 45px;
+    padding-right: 565px;
 }
 .keiki-sticker .so-widget-image{
     height: 170px !important;
