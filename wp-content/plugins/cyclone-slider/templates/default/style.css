@@ -177,24 +177,26 @@
 .keiki-sticker {
     z-index: 200;
     position: relative;
-    margin-top: -85px;
-    margin-bottom: -140px;
-    padding-left: 80px;
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px){
-.keiki-sticker {
-    margin-top: -72px;
-    margin-bottom: -128px;
-    padding-left: 50px;
-    padding-right: 672px;
+    margin-top: -10%;
+    margin-bottom: -20%;
+    padding-left: 6%;
 }
 .keiki-sticker .so-widget-image{
-    height: 200px !important;
+    width: 33% !important;
+}
+
+@media screen and (min-width: 492px){
+.keiki-sticker {
+    margin-top: -50px;
+    margin-bottom: -90px;
+    padding-left: 6%;
+}
+.keiki-sticker .so-widget-image{
+    width: 140px !important;
 }
 }
 
-@media screen and (min-width: 850px) and (max-width: 991px){
+@media screen and (min-width: 850px){
 .keiki-sticker {
     margin-top: -60px;
     margin-bottom: -110px;
@@ -202,28 +204,30 @@
     padding-right: 565px;
 }
 .keiki-sticker .so-widget-image{
-    height: 170px !important;
+    width: 170px !important;
 }
 }
 
-@media screen and (min-width: 492px) and (max-width: 849px){
+@media screen and (min-width: 992px){
 .keiki-sticker {
-    margin-top: -50px;
-    margin-bottom: -90px;
-    padding-left: 6%;
+    margin-top: -72px;
+    margin-bottom: -128px;
+    padding-left: 50px;
+    padding-right: 672px;
 }
 .keiki-sticker .so-widget-image{
-    height: 140px !important;
+    width: 200px !important;
 }
 }
 
-@media screen and (min-width: 0px) and (max-width: 491px){
-.keiki-sticker {
-    margin-top: -10%;
-    margin-bottom: -20%;
-    padding-left: 6%;
+@media screen and (min-width: 1200px){
+.keiki-sticker{
+    margin-top: -85px;
+    margin-bottom: -140px;
+    padding-left: 80px;
+    padding-right: 725px;
 }
 .keiki-sticker .so-widget-image{
-    width: 33% !important;
+    width: 225px !important;
 }
 }
